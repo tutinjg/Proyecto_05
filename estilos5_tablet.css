@@ -1,0 +1,55 @@
+:root {
+    --size-parrafos: 2rem;
+    --first-color: #9d8189;
+    --second-color: #f4acb7;
+    --three-color: #ffcad4;
+    --four-color: #ffe5d9;
+    --five-color: #d8e2dc;
+    --color-blanco: #ffffff;
+/*https://coolors.co/d8e2dc-ffe5d9-ffcad4-f4acb7-9d8189*/
+}
+.header {
+    height:120px;
+}
+.header img {
+    width: 60px;
+    top: 30px;
+}
+.header h1 {
+    font-size: 3rem;
+}
+.header nav li {
+    font-size: var(--size-parrafos);
+}
+.main aside {
+    float: left;
+    align-items: center;
+    justify-content: space-evenly;
+    width: calc(20% - 10px);
+    height: calc(100vw - 100px);
+    min-width: 100px;
+}
+.main aside li{
+    font-size: var(--size-parrafos);
+    text-align: center;
+}
+.main section{
+    width: calc(80% - 10px);
+}
+.main__section1 .section-d1, .section-d2, .section-d3, .section-d4 {
+    width: calc(100% - 10px);
+}
+.main__section1 div > h3 {
+    font-size: 2.5rem;
+}
+.main__section1 div > p {
+    font-size: var(--size-parrafos);
+    float: right;
+    display: inline;
+    width: calc(60% - 10px);
+}
+div > .main__section1-img { 
+    float: left;
+    width: 150px;
+    display: inline;
+}

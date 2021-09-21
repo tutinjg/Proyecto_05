@@ -1,0 +1,29 @@
+.main aside {
+    float: left;
+    align-items: center;
+    justify-content: space-evenly;
+    width: calc(20% - 10px);
+    height: calc(100vw - 100px);
+    min-width: 100px;
+}
+.main aside li{
+    font-size: var(--size-parrafos);
+    text-align: center;
+}
+.main section{
+    width: calc(80% - 10px);
+}
+.main__section1 .section-d1, .section-d2, .section-d3, .section-d4 {
+    width: calc(100% - 10px);
+    display: flex;
+    align-items: center;
+}
+.main__section1 div > h3 {
+    font-size: 2.5rem;
+}
+.main__section1 div > p {
+    font-size: var(--size-parrafos);
+}
+div > .main__section1-img { 
+    width: 150px;
+}
